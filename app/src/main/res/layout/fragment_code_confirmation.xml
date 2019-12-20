@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textColor="@color/colorDirtyBlack"
+        android:lineSpacingExtra="@dimen/_2sdp"
+        android:layout_margin="@dimen/_20sdp"
+        android:id="@+id/tv_code_sent"
+        android:text="@string/we_have_sent_the_confirmatio_code_on_923242676853_put_that_code_here_for_successful_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/input_rounded"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+
+        <!--icon-->
+        <ImageView
+            android:padding="@dimen/_7sdp"
+            android:background="@color/colorAccent"
+            android:id="@+id/ic_confirmation_code"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_confirmation_number"/>
+
+        <!--input-->
+        <EditText
+            android:inputType="number"
+            android:imeOptions="actionDone"
+        android:layout_toRightOf="@+id/ic_confirmation_code"
+        android:hint="@string/txt_enter_confirmation_code"
+            android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        app:fabSize="normal"
+        android:id="@+id/btn_submit"
+        android:src="@drawable/ic_check"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

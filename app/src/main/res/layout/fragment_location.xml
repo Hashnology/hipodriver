@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginTop="@dimen/_50sdp"
+    android:keepScreenOn="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--map fragment for driver location-->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_driver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.google.android.gms.maps.MapView>
+
+    <!--line number-->
+    <TextView
+        android:layout_margin="@dimen/_10sdp"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/bg__dirty_white"
+        android:id="@+id/tv_line_num_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_20"/>
+
+    <!--station details-->
+    <RelativeLayout
+        android:background="@color/colorAccent"
+        android:padding="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--distance-->
+        <TextView
+            android:visibility="gone"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="4.5 km"
+            android:id="@+id/tv_distance"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:elevation="@dimen/_5sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_station_distance"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--time-->
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:id="@+id/tv_station_time"
+                android:text="@string/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--name-->
+            <TextView
+                android:id="@+id/tv_station_name"
+                android:text="@string/loading"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:visibility="gone"
+                android:src="@drawable/ic_station_person"
+                android:layout_width="150dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:id="@+id/btn_passengers"
+                android:backgroundTint="@color/colorWhite"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_showmap"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

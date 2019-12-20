@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">سائق فرس النهر</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">تطبيقات الركاب</string>
+    <string name="nav_header_subtitle">driver@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="google_maps_key">AIzaSyCv6DO288H1xBhc_yyNmjASzKzuTijXvQw</string>
+    <!--<string name="google_maps_key">AIzaSyDBP9t9CLucgbWzp4j7jJKYMI-XVAQc2eg</string>-->
+
+    <string name="action_settings">اعدادات شخصية</string>
+    <string name="action_logout">الخروج</string>
+    <string name="action_exit">ىخرج</string>
+    <string name="action_home">أين الحافلة الخاصة بي؟</string>
+    <string name="action_schedual">جدول</string>
+    <string name="action_bill">فاتورتي</string>
+
+    <string name="txt_enter_username">ادخل اسم المستخدم</string>
+    <string name="txt_enter_password">أدخل كلمة المرور</string>
+
+    <string name="txt_login_to_account">تسجيل الدخول إلى حسابك</string>
+    <string name="txt_code_will_be_sent">سيتم إرسال رمز التأكيد إلى رقم هاتفك.</string>
+    <string name="txt_we_sent_code">لقد أرسلنا رمز التأكيد على</string>
+    <string name="txt_put_code_here">ضع هذا الرمز هنا لتسجيل الدخول بنجاح.</string>
+    <string name="txt_enter_confirmation_code">أدخل رمز التأكيد</string>
+
+    <string name="welcome_driver">مرحبا بكم في قرن آمون الركاب التطبيقات</string>
+    <string name="tap_language">اضغط لاختيار لغتك</string>
+    <string name="welcome">أهلا بك</string>
+    <string name="your_nearest_assignment_text">أقرب مهمة تبدأ من</string>
+    <string name="day">يوم:</string>
+    <string name="time">زمن:</string>
+    <string name="location">موقعك:</string>
+    <string name="line_number">رقم السطر:</string>
+    <string name="client">عميل:</string>
+    <string name="confirm_your_name">يرجى تأكيد أنك </string>
+    <string name="confirm_vehicle_ready"> وسيارتك جاهزة.</string>
+    <string name="confirm_fuel_check">هل قمت بفحص ضغط الوقود والهواء؟</string>
+    <string name="confirm_vehicle_clean">هل السيارة نظيفة؟</string>
+    <string name="confirm_previous_client">لم يبق شيء من العميل السابق.</string>
+
+    <string name="txt_yes">نعم فعلا</string>
+    <string name="txt_no">لا</string>
+
+    <!--questionair errors-->
+    <string name="error_name_check">يرجى تحديد خيار التحقق من الاسم</string>
+    <string name="error_fuel_check">يرجى تحديد خيار فحص الوقود</string>
+    <string name="error_vehicle_clean_check">يرجى تحديد خيار الاختيار النظيف للسيارة</string>
+    <string name="error_client_check">يرجى تحديد خيار الاختيار العميل</string>
+
+    <string name="txt_passengers">ركاب</string>
+    <string name="label_lastname">الكنية</string>
+    <string name="label_suborganization">اسم المنظمة الفرعية</string>
+    <string name="label_linename">اسم الخط</string>
+    <string name="label_firstname">الاسم الاول</string>
+
+    <string name="label_app">تطبيق الركاب</string>
+    <string name="txt_welcome">مرحبا بكم في HIPPO CAMPUS!</string>
+    <string name="hint_username">اسم المستخدم</string>
+    <string name="hint_password">كلمه السر</string>
+    <string name="txt_btn_login">تسجيل الدخول</string>
+    <string name="txt_signup">جديد هنا؟</string>
+    <string name="mammm" />
+    <string name="current_location">الموقع الحالي</string>
+    <string name="we_have_sent_the_confirmatio_code_on_923242676853_put_that_code_here_for_successful_login">لقد أرسلنا رمز التأكيد على +923242676853. ضع هذا الرمز هنا لتسجيل الدخول بنجاح.</string>
+    <string name="line_20">سطر: 20</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="language">لغة</string>
+    <string name="my_location">موقعي</string>
+    <string name="suborganization_name">اسم المؤسسة الفرعية</string>
+
+    <!--Schedualing-->
+    <string name="TO">إلى</string>
+    <string name="From">من عند</string>
+    <string name="Days">أيام</string>
+    <string name="notice">هذا هو الجدولة الدائمة حتى إشعار آخر</string>
+    <string name="submit">خضع</string>
+    <string name="note">ملحوظة:</string>
+    <string name="default_schedual">الجدول الافتراضي هو 8: 15/14: 40. يمكنك اختيار إجراء تغييرات في الرحلات. </string>
+    <string name="confirm">تؤكد</string>
+    <string name="The_schedual_is">الجدول الزمني هو </string>
+    <string name="you_can_change_trips"> . يمكنك اختيار إجراء تغييرات في الرحلات. </string>
+
+    <string name="Are_you_sure_you_want_to_logout">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="Are_you_sure_you_want_to_exit">هل أنت متأكد أنك تريد الخروج؟</string>
+    <string name="Getting_you_signin">الحصول على تسجيل الدخول</string>
+    <string name="Please_wait">ارجوك انتظر...</string>
+    <string name="Uploading_your_schedual">تحميل الجدول الزمني الخاص بك!</string>
+    <string name="Invalid_Schedual">جدول غير صالح</string>
+    <string name="Loading_Shifts_for_selected_day">تحميل التحولات لليوم المحدد!</string>
+    <string name="Thank_you_your_request_was_recieved_successfully">شكرًا ، تم استلام طلبك بنجاح.</string>
+
+
+    <string name="Fetching_stations_data">جلب محطات البيانات</string>
+    <string name="Your_route_is_ready_Go">طريقك جاهز. اذهب!</string>
+    <string name="No_Internet_Access">لا يوجد الوصول إلى الإنترنت!</string>
+
+</resources>

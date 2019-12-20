@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginTop="@dimen/_50sdp"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--profile-->
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="@color/colorPrimary"
+                android:letterSpacing="0.01"
+                android:textSize="@dimen/_15sdp"
+                android:text="@string/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--first name-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ic_person"
+                    android:src="@drawable/ic_person_outline_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/ic_person"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/label_firstname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="Adil Farooq"
+                        android:id="@+id/tv_firstname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--last name-->
+            <RelativeLayout
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ic_last"
+                    android:src="@drawable/ic_person_outline_black"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/ic_last"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/_14sdp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/label_lastname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="Adil Farooq"
+                        android:id="@+id/tv_lastname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--suborganization-->
+            <RelativeLayout
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ic_fiber"
+                    android:src="@drawable/ic_fiber"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/ic_fiber"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/_14sdp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/label_suborganization"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="11111111"
+                        android:id="@+id/tv_suborg_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--Line name-->
+            <RelativeLayout
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ic_car"
+                    android:src="@drawable/ic_car_profile"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/ic_car"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/_14sdp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/label_linename"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="391316"
+                        android:id="@+id/tv_linename"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+            <View
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="1sp"/>
+            <!--general-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:letterSpacing="0.01"
+                android:textSize="@dimen/_15sdp"
+                android:text="General"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--language-->
+            <RelativeLayout
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/ic_language"
+                    android:src="@drawable/ic_language"
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/ic_language"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/_14sdp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="English"
+                        android:id="@+id/tv_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

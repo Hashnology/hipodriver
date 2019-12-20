@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="@dimen/_50sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.maps.MapView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.google.android.gms.maps.MapView>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/btn_logout"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/logout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/btn_refresh"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_refresh"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <TextView
+            android:textColor="@color/colorDirtyBlack"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_6sdp"
+            android:background="@drawable/bg__dirty_white"
+            android:id="@+id/tv_station_distance"
+            android:text="Next Satation: 14 km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--line number-->
+        <TextView
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/bg__dirty_white"
+            android:id="@+id/tv_line_num_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line: 20"/>
+
+    </RelativeLayout>
+
+
+    <!-- include bottom sheet -->
+    <include layout="@layout/layout_sheet" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,106 @@
+<resources>
+    <!--<string name="app_name">Hippo Passenger</string>-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Driver Apps</string>
+    <string name="nav_header_subtitle">driver@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="google_maps_key">AIzaSyCv6DO288H1xBhc_yyNmjASzKzuTijXvQw</string>
+    <!--<string name="google_maps_key">AIzaSyDBP9t9CLucgbWzp4j7jJKYMI-XVAQc2eg</string>-->
+
+    <!--<string name="action_logout">Logout</string>-->
+    <string name="action_schedual">Scheduling</string>
+    <string name="action_bill">My bill</string>
+    <!--<string name="action_exit">Exit</string>-->
+    <!--<string name="action_home">Where is my bus?</string>-->
+    <!--<string name="action_settings">Personal Settings</string>-->
+
+    <string name="txt_enter_username">Enter Username</string>
+    <string name="txt_enter_password">Enter Password</string>
+
+    <string name="txt_login_to_account">Login to your account</string>
+    <string name="txt_code_will_be_sent">A confirmation code will be sent to your phone number.</string>
+    <string name="txt_we_sent_code">We have sent the confirmation code on</string>
+    <string name="txt_put_code_here">Put that code here for successful login.</string>
+    <string name="txt_enter_confirmation_code">Enter confirmation code</string>
+
+    <string name="welcome_driver">Welcome to the HippoCampus Driver App</string>
+    <string name="tap_language">Tap to choose your language</string>
+    <string name="welcome">Welcome</string>
+    <string name="your_nearest_assignment_text">Your nearest assignment start at</string>
+    <string name="day">Day:</string>
+    <string name="time">Time:</string>
+    <string name="location">Loctation:</string>
+    <string name="line_number">Line Number:</string>
+    <string name="client">Client:</string>
+    <string name="confirm_your_name">Please confirm that you are </string>
+    <string name="confirm_vehicle_ready"> and your vehicle is ready.</string>
+    <string name="confirm_fuel_check">Did you check fuel and air pressure?</string>
+    <string name="confirm_vehicle_clean">Is the vehicle clean?</string>
+    <string name="confirm_previous_client">Nothing was left behind from previous client.</string>
+
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+
+    <!--questionair errors-->
+    <string name="error_name_check">Please select a name check option</string>
+    <string name="error_fuel_check">Please select a fuel check option</string>
+    <string name="error_vehicle_clean_check">Please select a vehicle clean check option</string>
+    <string name="error_client_check">Please select a client check option</string>
+
+    <string name="txt_passengers">Passengers</string>
+    <string name="label_lastname">Last Name</string>
+    <string name="label_suborganization">Suborganization name</string>
+    <string name="label_linename">Line name</string>
+    <string name="label_firstname">First Name</string>
+
+    <string name="label_app">Driver App</string>
+    <string name="txt_welcome">WELCOME TO HIPO CAMPUS!</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_btn_login">Login</string>
+    <string name="txt_signup">New Here?</string>
+    <string name="mammm" />
+    <string name="current_location">Current Location</string>
+    <string name="we_have_sent_the_confirmatio_code_on_923242676853_put_that_code_here_for_successful_login">We have sent the confirmatio code on +923242676853. Put that code here for successful login.</string>
+    <string name="line_20">Line: 20</string>
+    <string name="loading">Loading...</string>
+    <string name="profile">Profile</string>
+    <string name="language">Language</string>
+    <string name="my_location">My Location</string>
+    <string name="suborganization_name">Suborganization Name</string>
+
+    <!--Schedualing-->
+    <string name="TO">To</string>
+    <string name="From">From</string>
+    <string name="Days">Days</string>
+    <string name="notice">This is the parmanent schedualing till further notice</string>
+    <string name="submit">Submit</string>
+    <string name="note">Note:</string>
+    <string name="default_schedual">The default schedual is 8:15/14:40 . You can chose making changes in the trips. </string>
+    <string name="confirm">Confirm</string>
+    <string name="The_schedual_is">The schedual is </string>
+    <string name="you_can_change_trips"> . You can chose making changes in the trips. </string>
+    <string name="action_settings">Personal Settings</string>
+    <string name="action_home">Where is my bus?</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_logout">Logout</string>
+    <string name="app_name">Hippo Driver</string>
+
+    <string name="Are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="Are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="Getting_you_signin">Getting you signin</string>
+    <string name="Please_wait">Please wait...</string>
+    <string name="Uploading_your_schedual">Uploading your schedual!</string>
+    <string name="Invalid_Schedual">Invalid Schedual</string>
+    <string name="Loading_Shifts_for_selected_day">Loading Shifts for selected day!</string>
+    <string name="Thank_you_your_request_was_recieved_successfully">Thank you, your request was recieved successfully.</string>
+
+    <string name="Fetching_stations_data">Fetching stations data</string>
+    <string name="Your_route_is_ready_Go">Your route is ready. Go!</string>
+    <string name="No_Internet_Access">No Internet Access!</string>
+
+
+</resources>

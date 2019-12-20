@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/_50sdp">
+
+    <LinearLayout
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_20sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:text="Hipo"
+            android:textSize="@dimen/_17sdp" />
+    </LinearLayout>
+
+    <!--ride details layout-->
+    <LinearLayout
+        android:id="@+id/layout_ride_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:text="@string/your_nearest_assignment_text"
+            android:textColor="@color/colorDirtyBlack"
+            android:textSize="@dimen/_13sdp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:orientation="vertical">
+            <!--day-->
+            <LinearLayout
+                android:id="@+id/layout_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day"
+                    android:textColor="@color/colorDirtyBlack"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:text="Monday" />
+            </LinearLayout>
+
+            <!--time-->
+            <LinearLayout
+                android:id="@+id/layout_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:textColor="@color/colorDirtyBlack"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:text="03 AM" />
+            </LinearLayout>
+
+            <!--location-->
+            <LinearLayout
+                android:id="@+id/layout_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:textColor="@color/colorDirtyBlack"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:text="Hiper star" />
+            </LinearLayout>
+
+            <!--line number-->
+            <LinearLayout
+                android:id="@+id/layout_line_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/line_number"
+                    android:textColor="@color/colorDirtyBlack"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_line_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:text="20" />
+            </LinearLayout>
+
+            <!--client-->
+            <LinearLayout
+                android:id="@+id/layout_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/line_name"
+                    android:textColor="@color/colorDirtyBlack"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_client"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:text="Waqas Akram" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--questainair layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_ride_details"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="@string/txt_yes"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_no"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!--your name-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_confirm_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/rg_name"
+                android:gravity="center_vertical"
+                android:text="asdfsa sa fa sfd sa fda sfd as dfas fd as f asd fas fd asdf" />
+
+            <CheckBox
+                android:id="@+id/cb_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rg_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_name_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rb_name_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <!--fuel-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_confirm_fuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_toLeftOf="@id/rg_fuel"
+                android:text="@string/confirm_fuel_check" />
+
+            <CheckBox
+                android:id="@+id/cb_fuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rg_fuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_fuel_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rb_fuel_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <!--vehicle clean-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_confirm_vehicle_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_toLeftOf="@+id/rg_vehicle_clean"
+                android:text="@string/confirm_vehicle_clean" />
+
+            <CheckBox
+                android:id="@+id/cb_vehicle_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rg_vehicle_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_vehicle_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rb_vehicle_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <!--previous clinet is ok-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/tv_confirm_previous_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_toLeftOf="@+id/rg_previous_client"
+                android:text="@string/confirm_previous_client" />
+
+            <CheckBox
+                android:id="@+id/cb_previous_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rg_previous_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_client_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rb_client_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--submit-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_submit_ques_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/ic_arrow_forward"
+        app:fabSize="normal" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--name-->
+    <TextView
+        android:textColor="@color/colorDirtyBlack"
+        android:text="Adil Farooq"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--contact-->
+    <TextView
+        android:layout_marginTop="@dimen/_2sdp"
+        android:text="51898999"
+        android:layout_below="@+id/tv_name"
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--call button-->
+    <ImageButton
+        android:id="@+id/btn_call"
+        android:layout_below="@+id/tv_phone"
+        android:background="@null"
+        android:src="@drawable/ic_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

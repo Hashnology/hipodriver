@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp" android:padding="@dimen/_10sdp" android:background="@drawable/btn_background">
+    <TextView
+        android:id="@+id/tv_last_station_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You arrived to your final destination. Please check the vehicle for left behind objects and passengers."
+        android:textSize="@dimen/_20sdp"/>
+    <Button
+        android:id="@+id/btn_ok_alert"
+        android:background="@drawable/btn_background"
+        android:layout_below="@+id/tv_last_station_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:text="OK"/>
+
+</RelativeLayout>

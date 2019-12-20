@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330565251824",
+    "firebase_url": "https://hippodriver-277ed.firebaseio.com",
+    "project_id": "hippodriver-277ed",
+    "storage_bucket": "hippodriver-277ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330565251824:android:e758d0c581b47e20",
+        "android_client_info": {
+          "package_name": "com.karimapps.hipodriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330565251824-r41lql216mb6t454k8tg6nj44fgein8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karimapps.hipodriver",
+            "certificate_hash": "63d61e47c9abc3cb943205808aaf75f6bcce401e"
+          }
+        },
+        {
+          "client_id": "330565251824-q66l4b70qb7ghog9olm6aockhcvqm1jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANIub-6BtUAZxBSkg90StfCUuWidkdAag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330565251824-q66l4b70qb7ghog9olm6aockhcvqm1jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

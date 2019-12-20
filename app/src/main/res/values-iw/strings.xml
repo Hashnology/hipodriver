@@ -1,0 +1,101 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">יישומי הנוסע</string>
+    <string name="nav_header_subtitle">נוסע@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="google_maps_key">AIzaSyCv6DO288H1xBhc_yyNmjASzKzuTijXvQw</string>
+    <!--<string name="google_maps_key">AIzaSyDBP9t9CLucgbWzp4j7jJKYMI-XVAQc2eg</string>-->
+
+    <string name="action_settings">הגדרו</string>
+    <string name="action_exit">צ</string>
+    <string name="action_home">בי</string>
+    <string name="action_schedual">לוח זמנים</string>
+    <string name="action_bill">החשבון שלי</string>
+
+    <string name="txt_enter_username">הכנס שם משתמש</string>
+    <string name="txt_enter_password">הזן את הסיסמה</string>
+
+    <string name="txt_login_to_account">התחבר לחשבון שלך</string>
+    <string name="txt_code_will_be_sent">קוד אישור יישלח למספר הטלפון שלך.</string>
+    <string name="txt_we_sent_code">שלחנו את קוד האישור</string>
+    <string name="txt_put_code_here">שים את הקוד כאן להצטרפות מוצלחת.</string>
+    <string name="txt_enter_confirmation_code">הכנס קוד אישור</string>
+
+    <string name="welcome_driver">ברוכים הבאים ל- HippoCampus Driver App</string>
+    <string name="tap_language">הקש כדי לבחור את השפה שלך</string>
+    <string name="welcome">ברוך הבא</string>
+    <string name="your_nearest_assignment_text">המשימה הקרובה ביותר תתחיל ב</string>
+    <string name="day">יום:</string>
+    <string name="time">זמן:</string>
+    <string name="location">קדחת:</string>
+    <string name="line_number">מספר קו:</string>
+    <string name="client">לקוח:</string>
+    <string name="confirm_your_name">אשר את זה </string>
+    <string name="confirm_vehicle_ready"> ואת הרכב שלך מוכן.</string>
+    <string name="confirm_fuel_check">האם בדקת את הדלק ואת לחץ האוויר?</string>
+    <string name="confirm_vehicle_clean">האם הרכב נקי?</string>
+    <string name="confirm_previous_client">שום דבר לא נשאר מאחור מהלקוח הקודם.</string>
+
+    <string name="txt_yes">כן</string>
+    <string name="txt_no">לא</string>
+
+    <!--questionair errors-->
+    <string name="error_name_check">בחר אפשרות בדיקת שם</string>
+    <string name="error_fuel_check">בחר אפשרות לבדיקת דלק</string>
+    <string name="error_vehicle_clean_check">בחר אפשרות בדיקה נקייה של כלי רכב</string>
+    <string name="error_client_check">בחר אפשרות בדיקת לקוח</string>
+
+    <string name="txt_passengers">נוסעים</string>
+    <string name="label_lastname">שם משפחה</string>
+    <string name="label_suborganization">שם הארגון</string>
+    <string name="label_linename">שם שורה</string>
+    <string name="label_firstname">שם פרטי</string>
+
+    <string name="label_app">האפליקציה הנוסע</string>
+    <string name="txt_welcome">ברוכים הבאים לקמפוס היפו!</string>
+    <string name="hint_username">שם משתמש</string>
+    <string name="hint_password">סיסמה</string>
+    <string name="txt_btn_login">התחברות</string>
+    <string name="txt_signup">חדש פה?</string>
+    <string name="mammm" />
+    <string name="current_location">מיקום נוכחי</string>
+    <string name="we_have_sent_the_confirmatio_code_on_923242676853_put_that_code_here_for_successful_login">שלחנו את קוד האישור על +923242676853. שים את הקוד כאן להצטרפות מוצלחת.</string>
+    <string name="line_20">שורה: 20</string>
+    <string name="loading">טעינה...</string>
+    <string name="profile">פרופיל</string>
+    <string name="language">שפה</string>
+    <string name="my_location">המיקום שלי</string>
+    <string name="suborganization_name">שם הארגון</string>
+
+    <!--Schedualing-->
+    <string name="TO">ל</string>
+    <string name="From">מ</string>
+    <string name="Days">ימים</string>
+    <string name="notice">זהו תזמון הקבע עד להודעה חדשה</string>
+    <string name="submit">שלח</string>
+    <string name="note">הערה:</string>
+    <string name="default_schedual">לוח הזמנים של ברירת המחדל הוא 8: 15/14: 40. תוכל לבחור לבצע שינויים בנסיעות. </string>
+    <string name="confirm">אשר</string>
+    <string name="The_schedual_is">לוח הזמנים הוא </string>
+    <string name="you_can_change_trips"> . תוכל לבחור לבצע שינויים בנסיעות. </string>
+    <string name="action_logout">להתנתק</string>
+    <string name="app_name">נהג היפופוטם</string>
+
+    <string name="Are_you_sure_you_want_to_logout">האם אתה בטוח שברצונך לצאת?</string>
+    <string name="Are_you_sure_you_want_to_exit">אתה בטוח שאתה רוצה לצאת?</string>
+    <string name="Getting_you_signin">גורם לך להיכנס</string>
+    <string name="Please_wait">המתן בבקשה...</string>
+    <string name="Uploading_your_schedual">מעלה את לוח הזמנים שלך!</string>
+    <string name="Invalid_Schedual">תזמון לא חוקי</string>
+    <string name="Loading_Shifts_for_selected_day">טוען משמרות ליום שנבחר!</string>
+    <string name="Thank_you_your_request_was_recieved_successfully">תודה, הבקשה שלך התקבלה בהצלחה.</string>
+
+    <string name="Fetching_stations_data">אחזור נתוני תחנות</string>
+    <string name="Your_route_is_ready_Go">המסלול שלך מוכן. ללכת!</string>
+    <string name="No_Internet_Access">אין גישה לאינטרנט!</string>
+
+
+</resources>
